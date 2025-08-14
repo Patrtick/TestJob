@@ -19,6 +19,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.cinemachine@2.10.4": {
+      "name": "com.unity.cinemachine",
+      "displayName": "Cinemachine",
+      "resolvedPath": "D:\\Unity\\TestTask\\TestTask\\Library\\PackageCache\\com.unity.cinemachine@915237edaa40",
+      "fingerprint": "915237edaa40461a941e260ca123faf48eaf6a40",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.10.4",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.collab-proxy@2.8.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
