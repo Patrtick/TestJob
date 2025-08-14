@@ -1,0 +1,369 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.16f1 (67bef3276ff1) revision 6799091'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 15610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-08-14T15:50:23Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6.1\6000.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity/TestTask/TestTask
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58708
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity/TestTask/TestTask
+D:/Unity/TestTask/TestTask
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31956]  Target information:
+
+Player connection [31956]  * "[IP] 26.177.204.221 [Port] 0 [Flags] 2 [Guid] 1016961642 [EditorId] 1016961642 [Version] 1048832 [Id] WindowsEditor(7,Misha-2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31956]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1016961642 [EditorId] 1016961642 [Version] 1048832 [Id] WindowsEditor(7,Misha-2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31956] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31956] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.16f1 (67bef3276ff1)
+[Subsystems] Discovering subsystems at path D:/Unity/6.1/6000.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/TestTask/TestTask/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:          NVIDIA
+    VRAM:            5921 MB
+    App VRAM Budget: 5153 MB
+    Driver:          32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Unity/6.1/6000.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6.1/6000.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6.1/6000.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6.1/6000.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6.1/6000.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001035 seconds.
+- Loaded All Assemblies, in  0.361 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.334 seconds
+Domain Reload Profiling: 694ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (335ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 1592ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (158ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6191 unused Assets / (5.3 MB). Loaded Objects now: 6917.
+Memory consumption went from 144.4 MB to 139.1 MB.
+Total: 11.396200 ms (FindLiveObjects: 0.949700 ms CreateObjectMapping: 1.109500 ms MarkObjects: 5.575900 ms  DeleteObjects: 3.759100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36688.449628 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/road/t road.prefab
+  artifactKey: Guid(c3eb4b6f977d80142b3aa1b7a06b706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/road/t road.prefab using Guid(c3eb4b6f977d80142b3aa1b7a06b706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58ea7367fbd031ff9d1d40ce00f4662') in 2.9557982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.670383 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture
+  artifactKey: Guid(9fed0035cdd1fa24fa4ca87968a4e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture using Guid(9fed0035cdd1fa24fa4ca87968a4e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f322f135e61bf60ef6fd952f748db61') in 0.0005798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830068 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road
+  artifactKey: Guid(db74ea7ceff5b354f82cb50776e4775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road using Guid(db74ea7ceff5b354f82cb50776e4775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9256be8c6f617864eb1830130bbb2ee') in 0.0004924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029363 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/road-t-.-c.png
+  artifactKey: Guid(a1a31fd3d7ca5af43bf99cd25f06680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/road-t-.-c.png using Guid(a1a31fd3d7ca5af43bf99cd25f06680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0978245890707e61971599410753dcc') in 0.0398361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.165937 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/Materials
+  artifactKey: Guid(c31a0b70d1320d64b8f9958f7e7dd6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/Materials using Guid(c31a0b70d1320d64b8f9958f7e7dd6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4e79055d03dd41b66dc5b8e619d036c') in 0.0005101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043587 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/Materials/road-t-.-c.mat
+  artifactKey: Guid(8fe32fa4b07b72346919035fd06b773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/Materials/road-t-.-c.mat using Guid(8fe32fa4b07b72346919035fd06b773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe68d266199a890b30d40fcfbb1f8ac9') in 0.0481183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.476819 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Textures
+  artifactKey: Guid(598a751c4bbeb734d9876198dbbd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Textures using Guid(598a751c4bbeb734d9876198dbbd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd8e61b00b842c9dbd2046d07130231') in 0.0005085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040284 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Textures/ParticleCloudWhite.png
+  artifactKey: Guid(2dfc94dced7fb964b869bdb70b939792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Textures/ParticleCloudWhite.png using Guid(2dfc94dced7fb964b869bdb70b939792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d3c49feca67be9b56cbe6aeb3a0c8f') in 0.0333768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.940017 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/crosd road (3).fbx
+  artifactKey: Guid(f11f38658c8fc4740b9c2fcb2bcc25f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/crosd road (3).fbx using Guid(f11f38658c8fc4740b9c2fcb2bcc25f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f84c69f844b3c5b75d87dfa63c8afc62') in 3.9899921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/Track.fbx
+  artifactKey: Guid(b8966544f6764004a8228b064b40eee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/Track.fbx using Guid(b8966544f6764004a8228b064b40eee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5be58c1aa4d4fc0d7d76e9368488d16f') in 0.2401446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/R (6).png
+  artifactKey: Guid(2cce7b1091432cf4993fb38c55de6782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/R (6).png using Guid(2cce7b1091432cf4993fb38c55de6782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3848ccf6a3e71c665a8bd930f564d090') in 0.045006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/side-wall-gril-2 track 4.png
+  artifactKey: Guid(d7ab177b240afe94f932e18cce438a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/side-wall-gril-2 track 4.png using Guid(d7ab177b240afe94f932e18cce438a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bf737975c3b44ae6e7642af65a213a1') in 0.0704194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/NewLayer.terrainlayer
+  artifactKey: Guid(26d51120a2dbdf6458a7708db357f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/NewLayer.terrainlayer using Guid(26d51120a2dbdf6458a7708db357f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a814e51e31ea6796ecc05acd25f8531d') in 0.042987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.369419 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-1 (1).png
+  artifactKey: Guid(bd27d985893d3fe4093df8e4004d3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-1 (1).png using Guid(bd27d985893d3fe4093df8e4004d3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26595c7e23304efc46cb7059548b4181') in 0.0748892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.117840 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road.png
+  artifactKey: Guid(8fc894ee6a6ff134da8a4b56224e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road.png using Guid(8fc894ee6a6ff134da8a4b56224e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd55c1ea7c830c319465f6ed1f0941255') in 0.0546266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.079241 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-t- (2).png
+  artifactKey: Guid(9070eb7991b20484499ebba73a03a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-t- (2).png using Guid(9070eb7991b20484499ebba73a03a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6600056a76f9dcf1664605a0b48d968f') in 0.0473315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.459675 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-t- (2).png
+  artifactKey: Guid(9070eb7991b20484499ebba73a03a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-t- (2).png using Guid(9070eb7991b20484499ebba73a03a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd27fa5f8f584bd3d6414a8f1a0aca3ea') in 0.0515693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.374973 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-1 (1).png
+  artifactKey: Guid(bd27d985893d3fe4093df8e4004d3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road-1 (1).png using Guid(bd27d985893d3fe4093df8e4004d3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de8b10993d3a609188aaced8f51d890a') in 0.0534866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.408713 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road.png
+  artifactKey: Guid(8fc894ee6a6ff134da8a4b56224e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road.png using Guid(8fc894ee6a6ff134da8a4b56224e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c856bcbdc07a49f07aba0c751cc540ac') in 0.033233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.804947 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Grass.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Grass.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4fa435b5bd881dd8dbed443c5882be5') in 0.0317198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.776375 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Dirt 3.psd
+  artifactKey: Guid(8b2c33d35019bef44b482317576c80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Dirt 3.psd using Guid(8b2c33d35019bef44b482317576c80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be81e6293d29d4c0cc5566118185ecce') in 0.0163452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.767197 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/layer_Grass (Hill)asphalt_normal(15.000,15.000),0.000,0.100.terrainlayer
+  artifactKey: Guid(3da5634f35e32514da05b0713b7eb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/layer_Grass (Hill)asphalt_normal(15.000,15.000),0.000,0.100.terrainlayer using Guid(3da5634f35e32514da05b0713b7eb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98847177741f15715cd2fdad49b05c2d') in 0.0175223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
